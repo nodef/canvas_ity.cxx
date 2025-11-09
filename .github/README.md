@@ -8,6 +8,7 @@ This is a tiny, [single-header C++ library](../src/canvas_ity.hpp)
 for rasterizing immediate-mode 2D vector graphics, closely
 modeled on the basic [W3C (not WHATWG) HTML5 2D canvas
 specification](https://www.w3.org/TR/2015/REC-2dcontext-20151119/).
+By [Andrew Kensler](https://github.com/a-e-k).
 
 The priorities for this library are high-quality rendering, ease of use, and
 compact size.  Speed is important too, but secondary to the other priorities.
@@ -26,6 +27,18 @@ layer of JavaScript bindings.  See the accompanying [C++ automated test
 suite](../test/test.cpp) and its [HTML5 port](../test/test.html) for a mapping
 between the APIs and a comparison of this library's rendering output against
 browser canvas implementations.
+
+## :memo: Installation
+
+Run:
+```bash
+$ npm i canvas_ity.cxx
+```
+
+And then include `canvas_ity.hpp` as follows:
+```cxx
+#include "node_modules/canvas_ity.cxx/src/canvas_ity.hpp"
+```
 
 ## :memo: Example
 
@@ -334,3 +347,10 @@ from the author's local Mercurial repository.)
 
 Bug reports, discussions, kudos, and notices of nifty projects built using
 this library are most welcome, however.
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/canvas_ity.cxx)

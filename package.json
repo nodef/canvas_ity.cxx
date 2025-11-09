@@ -1,0 +1,15 @@
+{
+  "name": "canvas_ity.cxx",
+  "version": "1.2024.2",
+  "description": "A tiny, single-header <canvas>-like 2D rasterizer for C++; Andrew Kensler (2022).",
+  "keywords": ["c", "library", "canvas", "2d", "rasterizer", "graphics"],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/canvas_ity.cxx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/canvas_ity.cxx/issues"
+  },
+  "homepage": "https://github.com/nodef/canvas_ity.cxx#readme"
+}
